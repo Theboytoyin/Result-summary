@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+main {
+    display: flex;
+    place-content: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    box-sizing: border-box;
+}
+
+.Result {
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 18px;
+    padding: 40px;
+    width: 180px;
+    height: 300px;
+    place-items: center;
+    display: grid;
+    text-align: center;
+}
+.summary {
+    width: 180px;
+    height: 300px;
+    padding: 40px;
+    display: grid;
+    border-radius: 10px;
+
+}
+section {
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    color: hsl(241, 100%, 89%);
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    padding: 1em;
+    text-align: center;
+}
+section span{
+    font-size: 4em;
+    color: hsl(0, 0%, 100%);
+    margin-left: 0.3rem;
+    font-weight: bold;
+}
+h2 {
+    color: hsl(221, 100%, 96%);
+}
+.continue {
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 40px;
+    place-content: center;
+    display: grid;
+    width: 180px;
+    height: 35px;
+    font-size: medium;
+}
+h1 {
+    font-size: 25px;
+}
+.reaction {
+    color: hsl(0, 100%, 67%);
+    height: 5px;
+    display: flex;
+}
+.memory {
+    color: hsl(39, 100%, 56%);
+    display: flex;
+}
+.verbal {
+    color: hsl(166, 100%, 37%);
+    display: flex;
+}
+.visual {
+    color: hsl(234, 85%, 45%);
+    display: flex;
+}
+.su {
+    color: black;
+}
+p {
+    color: hsl(221, 100%, 96%);
+    width: 165px;
+    margin-top: 1px;
+}
+svg {
+    width:13px;
+    height: 13px;
+}
+table {
+    line-height: 4rem;
+    text-align: center
+}
+#no {
+    color: hsl(240, 23%, 76%);
+}
